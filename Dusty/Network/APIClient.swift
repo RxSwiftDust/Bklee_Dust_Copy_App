@@ -19,6 +19,15 @@ class APIClient {
                 return response.list
         }
     }
+    
+    static func getDustInfoOfCityes(itemCode: String = "PM25") -> Observable<[AverageDustValueOfCities]> {
+        return buildRequest(pathComponent: "getCtprvnMesureLIst", params: [("numOfRows", "1"), ("pageNo", "1"), ("itemCode", itemCode), ("dataGubun", "HOUR"), ("searchCondition", "MONTH"), ("ver", "1.3"), ("_returnType", "json")])
+            .map { data in
+                let decoder = JSONDecoder()
+                let response = try decoder.decode(DustInfoOfCitiesResponse.self, from: data)
+                return response.list
+        }
+    }
 }
 
 extension APIClient {

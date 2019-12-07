@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		600F5D12D9AD37368EA34099 /* Pods_Dusty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50766C840C798B763FA12A71 /* Pods_Dusty.framework */; };
 		AE526BCE239A1704006B7F21 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE526BCD239A1704006B7F21 /* MainViewController.swift */; };
+		AE526BD0239A2DB9006B7F21 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE526BCF239A2DB9006B7F21 /* ListViewController.swift */; };
 		AE61A5802390D26D0094D98E /* MeasuredDustData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61A57F2390D26D0094D98E /* MeasuredDustData.swift */; };
 		AE61A5832390D73E0094D98E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61A5822390D73E0094D98E /* APIClient.swift */; };
 		AE6F2FAE238F65C0008CE719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F2FAD238F65C0008CE719 /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 		50766C840C798B763FA12A71 /* Pods_Dusty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dusty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0369EB52FB43DA2624495A /* Pods-Dusty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dusty.debug.xcconfig"; path = "Target Support Files/Pods-Dusty/Pods-Dusty.debug.xcconfig"; sourceTree = "<group>"; };
 		AE526BCD239A1704006B7F21 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AE526BCF239A2DB9006B7F21 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AE61A57F2390D26D0094D98E /* MeasuredDustData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuredDustData.swift; sourceTree = "<group>"; };
 		AE61A5822390D73E0094D98E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		AE6F2FAA238F65C0008CE719 /* Dusty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dusty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 			children = (
 				AE6F2FB1238F65C0008CE719 /* DetailViewController.swift */,
 				AE526BCD239A1704006B7F21 /* MainViewController.swift */,
+				AE526BCF239A2DB9006B7F21 /* ListViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				AE6F2FAE238F65C0008CE719 /* AppDelegate.swift in Sources */,
 				AE6F2FC8238F69D3008CE719 /* Configuration.swift in Sources */,
 				AE6F2FB0238F65C0008CE719 /* SceneDelegate.swift in Sources */,
+				AE526BD0239A2DB9006B7F21 /* ListViewController.swift in Sources */,
 				AE61A5832390D73E0094D98E /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

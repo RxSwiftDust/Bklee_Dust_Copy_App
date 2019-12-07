@@ -24,7 +24,9 @@ class MainViewController: UIViewController {
     // MARK: - private methods
     private func setupUI() {
         let topVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController")
+        let bottomVC = storyboard?.instantiateViewController(withIdentifier: "ListViewController")
         addChildController(childVC: topVC!, to: topContainerView)
+        addChildController(childVC: bottomVC!, to: bottomContainerView)
     }
     
     
