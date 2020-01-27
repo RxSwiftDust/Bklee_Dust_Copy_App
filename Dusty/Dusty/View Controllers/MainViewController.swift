@@ -29,7 +29,6 @@ class MainViewController: UIViewController {
         addChildController(childVC: bottomVC!, to: bottomContainerView)
     }
     
-    
     private func addChildController(childVC: UIViewController, to view: UIView) {
         childVC.willMove(toParent: self)
         

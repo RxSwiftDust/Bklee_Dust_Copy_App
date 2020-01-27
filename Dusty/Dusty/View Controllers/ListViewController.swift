@@ -12,7 +12,6 @@ import RxSwift
 
 class ListViewController: UIViewController {
     
-    
     var dustInfos = BehaviorRelay<[(String, String)]>(value: [])
     private let disposeBag = DisposeBag()
     
@@ -23,6 +22,12 @@ class ListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupRx()
+        tableView = nil
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        tableView = nil
     }
     
     private func setupRx() {

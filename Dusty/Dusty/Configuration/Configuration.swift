@@ -13,7 +13,7 @@ enum Defaults {
 }
 
 enum DustService {
-    static let apiKey = "#여기에 서비스 키를 입력#"
+    static let apiKey = "bAaMfvnmdrayy5QLFlfCbt2sJNSeE2rO8/TVaNyQezRrBALDXDOOdSMVw/KoBulngdemPPlfnOw/UKrR8Rd14w=="
     
     static let baseUrl = URL(string: "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc")!
 }
